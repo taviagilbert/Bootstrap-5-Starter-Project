@@ -1,0 +1,26 @@
+// src/assets/scss/styles.scss
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+//Import Bootstrap's tooling files to use variables, mixins, etc.
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+
+//Custom
+@import "utilities/colors";
+
+:root {
+    --cyber-dark: #0c0c14;
+}
+
+body {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+}
+
+.page-header {
+    padding: 2rem;
+    background-color: $gray-100;
+    border-bottom: 1px solid $gray-300;
+}
